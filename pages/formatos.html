@@ -6,46 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autotécnica tv+radio+webFormatos</title>
     
-    <link rel="shortcut icon" href="../img2/index_files/AT-ISO-2017-Transp.webp" type="x-icon">
+    <link rel="shortcut icon" href="../img2/AT-ISO-2017-Transp.png" type="x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/animate.css">
+    
 </head>
 <!-- inicia body -->
 <body>
     
-        <!-- inicia nav -->
-    <nav>
-        <a href="../index.html">
-            <img src="../img2/index_files/AT-ISO-2017-Transp.webp" class="cajaS">
-        </a>
-        <ul>
-            <li>
-                <a href="../pages/nosotros.html">Sobre nosotros</a>
-            </li> 
-            <li>
-                <a href="../pages/galeria.html">Galería</a>
-            </li>
-            <li>
-                <a href="../pages/formatos.html">Formatos</a>
-            </li>
-            <li>
-                <a href="../pages/contacto.html">Contacto</a>
-            </li>
-                 
-          
-        </ul>
-    </nav>
-    <!-- end nav -->    
-    <!-- inicia header -->
+    <!-- inicia nav bs -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-rgba(32, 64, 64, 0.2)" id="botonera" class="w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img2/AT-ISO-2017-Transp.png" alt="fav icon" class= "cajaS">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/formatos.html">Formatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+<!-- end nav bs -->
+         
+<!-- inicia header -->
     <img src="../img2/info_files/AT-BANNER-ELENCO-600K.webp" class="banner" alt="banner elencointernacional">
 
 
-    <!-- inicia section -->
-    <h1 class="tracking-in-expand">Formatos internacionales</h1>
-    <div class="cajaMdSinBorde"> 
-        <div class="formatosInternacionales"> 
+<!-- inicia main -->
+    <main class="container-fluid"> 
+        <h1 class="tracking-in-expand">Formatos internacionales</h1>
+        <!-- inicia formato tips -->
+        <div class= "row">
+            <section class="cajaMd" class="col-sm-12 col-md-12 col-lg-12">
+            <p class="textoResaltadoCentro">AUTOTECNICA - FORMATO TIPS <br>
+            Podcast, móviles y web. <br>
+            Clips de 30 segundos y 1 minuto. <br>
+            Idioma original español, con banda internacional M+E y scripts para doblajes.</p>
+
+            <p class="textoNormal">Consejos para automovilistas de AUTOTECNICA en formato para distribución en internet, dispositivos móviles, teléfonos celulares y tablets.
+            Tambien en AUDIO CLIPS.</p> 
+            </section>
+            <section class="row" class="cajaMd">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KAwFr8la-Hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-sm-12 col-md-6 col-lg-6 mb-3 ms-3 ms-md-0 ms-lg-0" ></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OrFG-6RQNCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-sm-12 col-md-6 col-lg-6 mb-3 ms-3 ms-md-0 ms-lg-0"></iframe>
+            </section> 
+        </div>
+        <!-- end formato tips -->
+        <!-- inicia formato programa 24 min -->
+        <div class="row"> 
             <section class="cajaMd">
-                <p class="textoResaltado">AUTOTECNICA - FORMATO PROGRAMA TV <br>
+                <p class="textoResaltadoCentro"  class="col-sm-12 col-md-12 col-lg-12">AUTOTECNICA - FORMATO PROGRAMA TV <br>
                 Temporadas de 13 capítulos de 24 minutos <br>
                 Idioma original español, con banda internacional M+E y scripts para doblajes. br
                 TV Standard HD NTSC</p>  
@@ -59,8 +88,12 @@
                 AUTOTECNICA lo explica todo en lenguaje claro y simple, pero también con información y comentarios de avanzada que van a apreciar todos los apasionados del mundo motor.
                 </p>
             </section>
+        </div>    
+            <!-- end formato programa 24 min -->
+            <!-- inicia formato clips -->
+        <div class="row">   
             <section class="cajaMd">
-                <p class="textoResaltado">AUTOTECNICA - FORMATO CLIPS <br>
+                <p class="textoResaltadoCentro" class="col-sm-12 col-md-12 col-lg-12">AUTOTECNICA - FORMATO CLIPS <br>
                 Podcast, móviles y web. <br>
                 Clips de 3 minutos y 5 minutos. <br>
                 Idioma original español, con banda internacional M+E y scripts para doblajes.</p>   
@@ -68,38 +101,22 @@
                 <p class="textoNormal">Los contenidos de AUTOTECNICA en formato reducido para distribución en internet, dispositivos móviles, teléfonos celulares y tablets.
                 También en AUDIO CLIPS</p>
             </section>
-            <section class="cajaMd">
-                <p class="textoResaltado">AUTOTECNICA - FORMATO TIPS <br>
-                Podcast, móviles y web. <br>
-                Clips de 30 segundos y 1 minuto. <br>
-                Idioma original español, con banda internacional M+E y scripts para doblajes.</p>
-    
-                <p class="textoNormal">Consejos para automovilistas de AUTOTECNICA en formato para distribución en internet, dispositivos móviles, teléfonos celulares y tablets.
-                Tambien en AUDIO CLIPS.</p> 
+            <section class="row">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RCOUlQ-kAlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-sm-12 col-md-6 col-lg-6 mb-3 ms-3 ms-md-0 ms-lg-0" ></iframe >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fHRxRj59i6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-sm-12 col-md-6 col-lg-6 mb-3 ms-3 ms-md-0 ms-lg-0" ></iframe>    
             </section>
-            <section class="cajaMd"> 
-                <img src="../img2/formato_files/ATBRABANNERTOPcopy600.webp" alt="elenco at Braasil">
-                <img src="../img2/formato_files/image3T3.webp" alt="elenco at Chile">
+        </div>     
+            <!-- end formato clips -->
+                        
+            <section class="row"> 
+                <img src="../img2/formato_files/ATBRABANNERTOPcopy600.webp" alt="elenco at Braasil" class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                <img src="../img2/formato_files/image3T3.webp" alt="elenco at Chile"class="col-sm-12 col-md-6 col-lg-6 mb-3">
 
             </section>
         </div>    
-    
-        <!-- fin section formato textos -->
-        <!-- inicia videos -->
-      
-        <div class="formatosInternacionales"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RCOUlQ-kAlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videosFormatos"></iframe >
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KAwFr8la-Hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videosFormatos"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fHRxRj59i6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videosFormatos"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OrFG-6RQNCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videosFormatos"></iframe>
-            
 
-        </div>
-        <!-- fin videos -->
-    </div>    
-        
+    </main>
 
-</body>   
 <!-- inicia footer -->
 <footer class="pie">
     <h3>Seguinos en las redes</h3>
@@ -119,4 +136,10 @@
     </div>
 </footer> 
 <!--end footer  -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+        
+
+</body>  
+ <!--end body  -->
 </html>

@@ -20,20 +20,22 @@ body{
     left: 0;
     padding:4px 30px;
     display: flex;
-    
-    
+    flex-direction: row;
+    justify-content: flex-end; 
+       
 }   
  
 #botonera ul li{
     list-style: none;
+    
 }
 
 #botonera ul li a{
     color: rgb(248, 72, 8);
     font-family: 'Roboto', sans-serif;
     text-decoration: double;
-    flex-direction: row;
-    justify-content: flex-end;
+    
+    
    
     
 
@@ -80,19 +82,28 @@ p{
     text-align: left;
     
 }
+.textoNormalMd{
+    font-size: 2rem;
+    font-style:italic;
+    font-weight: 400;
+    color:#0d5471 ;
+    text-align: left;
+    padding: 50px;
+}
 .textoResaltado{
     font-size: 1.5em;
     font-style: oblique;
     font-weight: 200;
     color: black;
+    text-align: left;
 }
-.textoCentrado{
-    width: 25%;
-    height: auto;
-    margin:50px auto ;
-    padding:10px ;
-    border: black double 5px;
-}    
+.textoResaltadoCentro{
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+}
 
 .banner{
     width: 100%;
@@ -104,22 +115,19 @@ p{
 
 
 .formatosInternacionales{
-    width: 50%;
+    width: auto;
     height: auto;
-    padding: 20px;
+    padding: 40px;
     margin: 30px;
     border: none;
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
-.videosFormatos{
-    width: 560px;
-    height: 315px;
-    padding: 30px;
+
     
-} 
+
 .pie{
     padding: 6px 0;
     display: flex;
@@ -127,20 +135,15 @@ p{
     align-items: center;    
 }
 
-.pieIcon{
-    width: 50px;
-    padding: 30px;
-        
-} 
 .pieIcon:hover{
     transform:rotateZ(360deg);
     transition:1s
 }
 .formulario{
-    width: 30%;
+    width: 100%;
     height: auto;
     margin: 50px;
-    padding: 20px;;
+    padding: 20px;
     border-color:rgba(32, 64, 64);
     border-style: double;
     border-width: 5px;
@@ -156,14 +159,7 @@ p{
     flex-direction: row;
     justify-content: space-around;   
 }
-.formInfoContacto{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    
 
-}
 .cajaS{
     width: 89px;
     height: auto;
@@ -173,7 +169,7 @@ p{
     transition:1s;
 }
 .cajaMd{
-    width: 100%;
+    width: 95%;
     height: auto;
     border: 5px;
     border-style: double;
@@ -182,50 +178,10 @@ p{
     margin: 40px;
     display: flex;
     flex-direction: column;
+    align-content: space-around;
 } 
-.cajaMdSinBorde{
-    width: 100%;
-    height: auto;
-    border: none;
-    padding: none;
-    margin: none;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;    
-}   
-.cajaLg{
-    width: 90%;
-    height: auto;
-    border: 5px;
-    border-style: double;
-    border-color: black;
-    padding:30px;
-    margin: 40px;
-}
-.cajaMitad{
-    width: 50%;
-    height: auto;
-    border: none;
-    margin: none;
-    padding: none;
-    display: flex;
-    flex-direction: column;
-} 
-.fotitosAt{
-    width: 25%;   
-    height: auto;
-    margin: 30px;
-    padding: 20px;
-    display: inline-block;
-} 
-.fotosPublicitarias{
-    width: 75%;
-    height: auto;
-    padding: 10px;
-    border: none;
-    margin: 10px;
-    
-}
+
+
 #galeria{
     display: grid;
     grid-template-columns: 1fr;
@@ -348,9 +304,11 @@ p{
         "foto-j foto-j"
         "foto-q foto-r"
         "foto-s foto-v";
-    }  
+    } 
+    
+    } 
 
-}
+
 @media(min-width:1024px){
     #galeria{
         grid-template-columns: repeat(3,33vw);
@@ -378,8 +336,11 @@ p{
         font-size: 1rem;
         
     }
+    
+        
+    
      
-} 
+ 
 
 /**
  * ----------------------------------------
