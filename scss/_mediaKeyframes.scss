@@ -1,0 +1,82 @@
+@media(min-width:768px){
+    #galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(15,auto);
+        grid-template-areas:
+        "foto-a foto-b"
+        "foto-t foto-t"
+        "foto-c foto-d"
+        "foto-m foto-m"
+        "foto-e foto-f"
+        "foto-i foto-i"
+        "foto-i foto-i"
+        "foto-g foto-h"
+        "foto-u foto-u"
+        "foto-o foto-k"
+        "foto-o foto-l"
+        "foto-p foto-n"
+        "foto-j foto-j"
+        "foto-q foto-r"
+        "foto-s foto-v";
+    } 
+    
+} 
+
+@media(min-width:1024px){
+    #galeria{
+        grid-template-columns: repeat(3,33vw);
+        grid-template-rows: repeat(10,auto);
+        grid-template-areas:
+        "foto-a foto-b foto-c"
+        "foto-j foto-j foto-d"
+        "foto-e foto-i foto-i"
+        "foto-f foto-i foto-i"
+        "foto-t foto-t foto-g"
+        "foto-o foto-h foto-p"
+        "foto-o foto-m foto-m"
+        "foto-k foto-l foto-n"
+        "foto-u foto-u foto-q"
+        "foto-s foto-r foto-v";
+        img{
+            filter: grayscale(3);
+            &:hover{
+                filter: none;
+            }
+        }
+       
+    }
+    .textoNormal{
+        font-size: 1rem;
+    
+    }
+
+
+
+        
+    
+    @-webkit-keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+}

@@ -1,0 +1,100 @@
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(22,300px);
+    grid-template-areas:
+    "foto-a"
+    "foto-b"
+    "foto-c"
+    "foto-d"
+    "foto-e"
+    "foto-f"
+    "foto-g"
+    "foto-h"
+    "foto-i"
+    "foto-j"
+    "foto-k"
+    "foto-l"
+    "foto-m"
+    "foto-n"
+    "foto-o"
+    "foto-p"
+    "foto-q"
+    "foto-r"
+    "foto-s"
+    "foto-t"
+    "foto-u"
+    "foto-v";
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+}
+
+.foto-a{
+    grid-area: foto-a; 
+}
+.foto-b{
+    grid-area: foto-b; 
+}
+.foto-c{
+    grid-area: foto-c; 
+}
+.foto-d{
+    grid-area: foto-d; 
+}
+.foto-e{
+    grid-area: foto-e; 
+}
+.foto-f{
+    grid-area: foto-f; 
+}
+.foto-g{
+    grid-area: foto-g; 
+}
+.foto-h{
+    grid-area: foto-h; 
+}
+.foto-i{
+    grid-area: foto-i; 
+}
+.foto-j{
+    grid-area: foto-j; 
+}
+.foto-k{
+    grid-area: foto-k; 
+}
+.foto-l{
+    grid-area: foto-l; 
+}
+.foto-m{
+    grid-area: foto-m; 
+}
+.foto-n{
+    grid-area: foto-n; 
+}
+.foto-o{
+    grid-area: foto-o; 
+}
+.foto-p{
+    grid-area: foto-p; 
+}
+.foto-q{
+    grid-area: foto-q; 
+}
+.foto-r{
+    grid-area: foto-r; 
+}
+.foto-s{
+    grid-area: foto-s; 
+}
+.foto-t{
+    grid-area: foto-t; 
+}
+.foto-u{
+    grid-area: foto-u; 
+}
+.foto-v{
+    grid-area: foto-v; 
+}

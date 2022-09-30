@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+$fontMain:'Roboto', sans-serif;
+$fontSm: 1.5rem;
+$fontMd: 2rem;
+$fontLg:2.5rem;
+$fontLight: 200;
+$fontDark: 400;
+h1{
+    color:rgba(32, 64, 64);
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+h2{ 
+    color:darkorange;
+    font-size: $fontMd;
+    text-align: center;
+}
+
+h3{ 
+    color: darkorange;
+    font-size: $fontSm ;
+    text-align: left;
+
+}
+p{
+    font-family:$fontMain;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+.textoNormal{
+    font-size: $fontMd;
+    font-style:italic;
+    font-weight: 400;
+    color:#0d5471 ;
+    text-align: left;
+    
+}
+.textoNormalMd{
+    font-size: $fontMd;
+    font-style:italic;
+    font-weight: 400;
+    color:#0d5471 ;
+    text-align: left;
+    padding: 50px;
+}
+.textoResaltado{
+    font-size: $fontSm;
+    font-style: oblique;
+    font-weight: 200;
+    color: black;
+    text-align: left;
+}
+.textoResaltadoCentro{
+    font-size: $fontSm;
+    font-style: oblique;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+}    
+
+
+
+
+

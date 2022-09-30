@@ -1,0 +1,37 @@
+#botonera{
+    z-index: 90;
+    background-color:$mainColor;
+    position: sticky;
+    font-size: $fontSm;
+    top: 0;
+    left: 0;
+    padding:4px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    ul{
+        li{
+            list-style: none;
+            a{
+                color: $secondaryColor;
+                font-family: $fontMain;
+                text-decoration: double; 
+        
+                &:hover{
+                    color: rgb(32, 64, 64);
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+ 
+
+
+
+    
+    
+   
+    
+
+     

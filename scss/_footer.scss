@@ -1,0 +1,13 @@
+.pie{
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}        
+.pieIcon{
+    &:hover{
+        transform:rotateZ(360deg);
+        transition:1s
+    }
+}
+    

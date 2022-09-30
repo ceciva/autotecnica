@@ -1,0 +1,24 @@
+{
+  "name": "autotecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceciva/autotecnica.git"
+  },
+  "author": "Ceci Vadillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceciva/autotecnica/issues"
+  },
+  "homepage": "https://github.com/ceciva/autotecnica#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
