@@ -1,7 +1,7 @@
 {
-  "name": "autotecnica",
+  "name": "Autotecnica Tv Web Radio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Presentación del programa de Tv AUTOTÉCNICA, tecnología clara y sencilla, dirigida por el Ing Garibaldi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
