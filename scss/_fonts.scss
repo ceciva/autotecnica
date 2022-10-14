@@ -5,22 +5,26 @@ $fontMd: 2rem;
 $fontLg:2.5rem;
 $fontLight: 200;
 $fontDark: 400;
-h1{
-    color:rgba(32, 64, 64);
-    font-size: 2.5rem;
-    text-align: center;
+
+@mixin heading ($fontsize, $color, $textAlign) {
+    font-family: $fontMain;
+    font-size: $fontsize;
+    color: $color;
+    text-align: $textAlign;
     
 }
+h1{
+    @include heading($fontLg, black, center)
+   
+}
 h2{ 
-    color:darkorange;
-    font-size: $fontMd;
-    text-align: center;
+    @include heading($fontMd,$secondaryColor ,center )
+    
 }
 
 h3{ 
-    color: darkorange;
-    font-size: $fontSm ;
-    text-align: left;
+    @include heading($fontSm,$secondaryColor,left )
+    
 
 }
 p{
@@ -55,11 +59,8 @@ p{
     text-align: left;
 }
 .textoResaltadoCentro{
-    font-size: $fontSm;
-    font-style: oblique;
-    font-weight: 200;
-    color: black;
-    text-align: center;
+        @extend .textoResaltado;
+        text-align: center;
 }    
 
 

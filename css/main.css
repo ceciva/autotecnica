@@ -48,16 +48,16 @@ body {
   border-style: double;
   border-color: black;
   padding: 30px;
-  margin: 40px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-content: space-around;
 }
 
 .formulario {
-  width: 100%;
+  width: 85%;
   height: auto;
-  margin: 50px;
+  margin: auto;
   padding: 20px;
   border-color: rgb(32, 64, 64);
   border-style: double;
@@ -76,20 +76,23 @@ body {
 }
 
 h1 {
-  color: rgb(32, 64, 64);
+  font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
+  color: black;
   text-align: center;
 }
 
 h2 {
-  color: darkorange;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
+  color: rgb(248, 72, 8);
   text-align: center;
 }
 
 h3 {
-  color: darkorange;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+  color: rgb(248, 72, 8);
   text-align: left;
 }
 
@@ -119,7 +122,7 @@ p {
   padding: 50px;
 }
 
-.textoResaltado {
+.textoResaltado, .textoResaltadoCentro {
   font-size: 1.5rem;
   font-style: oblique;
   font-weight: 200;
@@ -128,16 +131,13 @@ p {
 }
 
 .textoResaltadoCentro {
-  font-size: 1.5rem;
-  font-style: oblique;
-  font-weight: 200;
-  color: black;
   text-align: center;
 }
 
 #botonera {
   z-index: 90;
   background-color: rgba(32, 64, 64, 0.2);
+  position: -webkit-sticky;
   position: sticky;
   font-size: 1.5rem;
   top: 0;
@@ -153,7 +153,8 @@ p {
 #botonera ul li a {
   color: rgb(248, 72, 8);
   font-family: "Roboto", sans-serif;
-  text-decoration: double;
+  -webkit-text-decoration: double;
+          text-decoration: double;
 }
 #botonera ul li a:hover {
   color: rgb(32, 64, 64);
@@ -181,7 +182,8 @@ p {
 #galeria img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .foto-a {
@@ -318,6 +320,4 @@ p {
       opacity: 1;
     }
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

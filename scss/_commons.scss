@@ -9,15 +9,16 @@ body{
     background-image: url(../img2/bubble2.png);
     background-attachment: sticky;
 }
+
 $mainColor: rgba(32, 64, 64, 0.2);
 $secondaryColor:rgb(248, 72, 8);
 
 .banner{
-width: 100%;
-height: auto;
-margin:10px;
-padding: none;
-border:none;
+    width: 100%;
+    height: auto;
+    margin:10px;
+    padding: none;
+    border:none;
 }
 .formatosInternacionales{
     width: auto;
@@ -45,15 +46,15 @@ border:none;
     border-style: double;
     border-color: black;
     padding:30px;
-    margin: 40px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-content: space-around;
 } 
 .formulario{
-    width: 100%;
+    width: 85%;
     height: auto;
-    margin: 50px;
+    margin: auto;
     padding: 20px;
     border-color:rgba(32, 64, 64);
     border-style: double;
